@@ -1,0 +1,48 @@
+AllCops:
+  TargetRubyVersion: 2.6
+
+Layout/IndentationConsistency:
+  Enabled: true
+  EnforcedStyle: indented_internal_methods
+
+Layout/LineLength:
+  Enabled: false
+
+Layout/SpaceAroundOperators:
+  Exclude:
+    - pg_composite.gemspec
+
+Layout/ExtraSpacing:
+  Exclude:
+    - pg_composite.gemspec
+
+Lint/SuppressedException:
+  Enabled: false
+
+Style/StringLiterals:
+  EnforcedStyle: double_quotes
+  Enabled: true
+
+Style/HashSyntax:
+  Enabled: true
+
+Style/Documentation:
+  Enabled: false
+
+Style/MixinUsage:
+  Enabled: false
+
+Metrics/BlockLength:
+  Enabled: false
+
+Metrics/MethodLength:
+  Enabled: false
+
+Metrics/AbcSize:
+  Enabled: false
+
+Style/FrozenStringLiteralComment:
+  Exclude:
+    - Rakefile
+    - 'bin/console'
+    - 'spec/spec_helper.rb'
